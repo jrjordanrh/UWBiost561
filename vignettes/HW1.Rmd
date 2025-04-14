@@ -326,4 +326,4 @@ Your feedback can help us shape the course for the rest of this quarter and
 future years. Please be mindful and polite when providing feedback.
 You may leave this question blank.
 
-
+Despite being a multi-step process, I liked how clear were the instructions. I had experience using github desktop for windows but not using it in R sudio directly! Is interesting. Also appreciate that the data analysis section was minimal.
