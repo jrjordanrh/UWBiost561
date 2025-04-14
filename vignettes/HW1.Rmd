@@ -131,6 +131,11 @@ function. See the documentation for `par`.)
 ```{r clt, out.width = "600px", fig.align="center", echo = FALSE, fig.cap=c("The figure you are trying to reproduce (without the Sample watermark) in Question 2B, barring the dimensions/proportions of the figure itself and randomness inherent to the simulation.")}
 knitr::include_graphics("https://raw.githubusercontent.com/linnykos/561_s2025_public/main/HW1_files/clt_editted.png")
 
+
+```
+
+```{r}
+
 library(ggplot2)
 results_ = matrix(NA,10000*6,2)
 n_ = c(1,2,3,5,10,100)
@@ -153,9 +158,7 @@ ggplot(dat1, aes(x = value)) +
   labs(title = "Distributions of Sample Means",
        x = "Sample Mean",
        y = "Count")
-
 ```
-
 <u>**Question 2C**</u>: 
 In one to three sentences, write how the plot you reproduced helps to verify 
 the Central Limit Theorem.
