@@ -1,17 +1,15 @@
 ---
-title: "BIOST 561: Homework 1"
-date: "Due date: 7:00pm on Monday, April 14th, 2025"
-output: 
+title: 'BIOST 561: Homework 1'
+date: 'Due date: 7:00pm on Monday, April 14th, 2025'
+output:
   bookdown::html_document2:
     number_sections: false
     toc: true
     toc_float:
       toc_collapsed: true
     theme: united
-vignette: >
-  %\VignetteIndexEntry{BIOST 561: Homework 1}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+vignette: "%\\VignetteIndexEntry{BIOST 561: Homework 1} %\\VignetteEngine{knitr::rmarkdown}
+  %\\VignetteEncoding{UTF-8}\n"
 ---
 
 ```{r setup, include = T}
@@ -19,6 +17,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+
 set.seed(10)
 ```
 
