@@ -14,7 +14,7 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r setup, include = FALSE}
+```{r setup, include = T}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
@@ -48,16 +48,24 @@ for the course expectations.
 
 - <u>**Question 0A**</u>: Please let me know your preferred name and preferred pronouns.
 
+Jordan Rodriguez, he/him
+
 - <u>**Question 0B**</u>: Please read the syllabus in its entirety and write, "I have read 
 and understood the entire syllabus,"
 for this question. If you have any questions about the syllabus (for example, on 
 the homework submission policy or collaboration policy), you may ask them here.
 
+I have read and understood the enitre syllabus
+
 - <u>**Question 0C**</u>: If any, please briefly describe the courses you have taken at UW that 
 involve coding (in any language) so far and how familiar/comfortable you are in coding in R. (Note: I do not expect you to have 
 taken any such courses already.)
 
+I fell very familiar with R
+
 - <u>**Question 0D**</u>: What do you hope to learn from this course? (It is alright if you leave this blank, but it would be helpful to hear your thoughts.)
+
+I’m eager to learn the software-engineering perspective and how to automate processes.
 
 # Q1: Setting up an R package and GitHub
 
