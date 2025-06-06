@@ -5,4 +5,4 @@ data = compare_alpha(alpha_vec,13)
 
 
 save(data, # save your results
-     file = "~/UWBiost561/vignettes/HW4_simulation.RData")
+     file = "~/HW4_simulation.RData")
