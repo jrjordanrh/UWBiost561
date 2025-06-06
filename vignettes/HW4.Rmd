@@ -399,6 +399,13 @@ figures inside this R Markdown file.
 The intent of this question is to provide "evidence" that your `devtools::check()`
 went smoothly. You do not need to worry about what your screenshots show specifically.
 
+
+```{r}
+knitr::include_graphics("C:/Users/jrjor/Pictures/Screenshots/Screenshot 2025-06-05 212913.png")
+knitr::include_graphics("C:/Users/jrjor/Pictures/Screenshots/Screenshot 2025-06-05 212901.png")
+
+```
+
 # Q3: Performing the simulation study
 
 <mark>**Intent**: The intent of this question is to perform the simulation study and to practice visualizing simulation results.</mark>

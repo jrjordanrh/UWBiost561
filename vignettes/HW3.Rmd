@@ -406,9 +406,6 @@ knitr::include_graphics("https://github.com/linnykos/561_s2025_public/blob/main/
 <u>**Question 4D**</u>: Please include the following code chunk's result in your Markdown file. (If you are copy-pasting the following R chunk,
 remove the `eval = FALSE` tag.) This will be useful for me (Kevin) to assess which packages and R version you are using.
 
-```{r}
-devtools::session_info()
-```
 
 
 # Q5: Storyline for HW4 and final project
