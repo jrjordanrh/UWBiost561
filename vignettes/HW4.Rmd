@@ -304,7 +304,7 @@ plan to use generate_partial_clique to generate graphs with 10 nodes, clique fra
 - 2) How are you varying the random graphs across the different "levels" of your analysis? (For example, you can vary `n`, `clique_fraction`, `clique_edge_density`, and/or `alpha`. Your simulation study can focus on changing one or two values.)
 
 **answer**
-I wan to compare the "number of wins" after using 3 different levels of alpha
+I wan to compare the "number of wins" after using 4 different levels of alpha (.5,.6,.7, and .8)
 
 
 - 3) Which different methods are you using in your simulation study? (This question is moot for this homework since you'll be using all 15 implementations of `compute_maximal_partial_clique`, but please write this down for thoroughness.)
@@ -321,7 +321,7 @@ if there are implementations that do worse at different levels of alpha
 - 5) How many trials do you intend to run per "level"?
 
 **answer**
-I want to do 10 trials per level
+I want to do 13 trials per level
 
 
 - 6) How much time do you estimate your simulation study will need at maximum? See Note 2 below.
@@ -452,6 +452,13 @@ in this R Markdown file.)</span>
 
 Finally, include your plot in this R Markdown file. (I'm having you put your plot in your `vignettes` folder and push/pull your `UWBiost561` package because I'm assuming you knit this `HW4.Rmd` file locally on your laptop, but you need to somehow get your plot from Bayes onto your local laptop.)
 
+
+```{r}
+knitr::include_graphics("C:/Users/jrjor/Documents/UW/BIOST561/UWBiost561/vignettes/HW4_simulation.png")
+
+```
+
+
 # Q4: Describing your final project
 
 <mark>**Intent**: The intent of this question is to make sure you have a plan for the final project.</mark>
@@ -459,6 +466,8 @@ Finally, include your plot in this R Markdown file. (I'm having you put your plo
 I will release the final project specifications (again, which involve making a PkgDown website of any R package of your choosing of any scope) on Canvas. This will be released (at the latest) by May 25th.
 
 Please write (in one to five sentences) what you are thinking of doing for your final project. If your answer hasn't changed since HW3, you can copy-paste your answer from HW3 into this question for HW4.
+
+I dont have specific code currently, so I may use this project if possible. 
 
 # Q5: Feedback (Optional)
 
