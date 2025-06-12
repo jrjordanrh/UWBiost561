@@ -390,8 +390,8 @@ knitr::include_graphics("https://github.com/linnykos/561_s2025_public/blob/main/
 ```
 
 ```{r}
-knitr::include_graphics("C:/Users/jrjor/Pictures/Screenshots/Screenshot 2025-05-12 102336.png")
-knitr::include_graphics("C:/Users/jrjor/Pictures/Screenshots/Screenshot 2025-05-12 102237.png")
+# knitr::include_graphics("C:/Users/jrjor/Pictures/Screenshots/Screenshot 2025-05-12 102336.png")
+# knitr::include_graphics("C:/Users/jrjor/Pictures/Screenshots/Screenshot 2025-05-12 102237.png")
 
 ```
 
