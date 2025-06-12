@@ -1,0 +1,72 @@
+---
+title: "Get started"
+output: 
+  bookdown::html_document2:
+    number_sections: false
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    theme: united
+vignette: >
+  %\VignetteIndexEntry{UW BIOST561 get started}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Function 1: generate partial clique
+
+Generate a random adjacency matrix with a dense partial clique
+
+```{r, include = T}
+
+library(UWBiost561)
+set.seed(10)
+n_ = 10
+clique_fraction_ = .5
+clique_edge_density_ = .9
+
+output = generate_partial_clique(n_,clique_fraction_,clique_edge_density_)
+output$adj_mat
+```
+
+
+# Function 2: compute_maximal_partial_clique
+
+Compute maximal partial clique
+
+```{r , include = T}
+set.seed(10)
+
+n_ = 10
+clique_fraction_ = .5
+clique_edge_density_ = .9
+
+adj_mat_ = generate_partial_clique(n_,clique_fraction_,clique_edge_density_)$adj_mat
+alpha_ = .6
+
+output2 = compute_maximal_partial_clique(adj_mat_, alpha_)
+
+output2$clique_idx
+```
+
+
+# Function 3: compute_maximal_partial_clique_master
+
+This function runs a implementation (dictated by number) using the inputs adj_mat and alpha. For example, compute_maximal_partial_clique_master(adj_mat, alpha, number = 5) executes compute_maximal_partial_clique5(adj_mat, alpha).
+
+```{r, include = T}
+set.seed(10)
+
+n_ = 10
+clique_fraction_ = .5
+clique_edge_density_ = .9
+
+
+adj_mat2 = generate_partial_clique(n_,clique_fraction_,clique_edge_density_)$adj_mat
+alpha2 = .6
+number2 = 5
+
+output3 = compute_maximal_partial_clique_master(adj_mat2, alpha2, number2)
+output3$clique_idx
+
+```
