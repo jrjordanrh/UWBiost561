@@ -454,7 +454,7 @@ Finally, include your plot in this R Markdown file. (I'm having you put your plo
 
 
 ```{r}
-knitr::include_graphics("C:/Users/jrjor/Documents/UW/BIOST561/UWBiost561/vignettes/HW4_simulation.png")
+#knitr::include_graphics("C:/Users/jrjor/Documents/UW/BIOST561/UWBiost561/vignettes/HW4_simulation.png")
 
 ```
 
