@@ -401,8 +401,8 @@ went smoothly. You do not need to worry about what your screenshots show specifi
 
 
 ```{r}
-knitr::include_graphics("C:/Users/jrjor/Pictures/Screenshots/Screenshot 2025-06-05 212913.png")
-knitr::include_graphics("C:/Users/jrjor/Pictures/Screenshots/Screenshot 2025-06-05 212901.png")
+# knitr::include_graphics("C:/Users/jrjor/Pictures/Screenshots/Screenshot 2025-06-05 212913.png")
+# knitr::include_graphics("C:/Users/jrjor/Pictures/Screenshots/Screenshot 2025-06-05 212901.png")
 
 ```
 
